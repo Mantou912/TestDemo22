@@ -6,6 +6,8 @@ public class StudentBiz {
     static int Numbers;
     String[] Names = new String[100];
 
+    Student[] students = new Student[100];
+
     public StudentBiz() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("请输入学生人数");
@@ -15,6 +17,7 @@ public class StudentBiz {
             System.out.print("请输入学生姓名：");
             String name = scanner.next();
             addName(name);
+            students[Numbers - 1] = new Student();
         }
     }
 
