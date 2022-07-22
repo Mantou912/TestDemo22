@@ -1,4 +1,4 @@
-package _2207;
+package _220722;
 
 import java.util.Scanner;
 
